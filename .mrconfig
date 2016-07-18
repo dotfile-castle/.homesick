@@ -1,0 +1,3 @@
+
+[repos/bash]
+checkout = git clone 'git@github.com:dotfile-castle/bash.git' 'bash'
