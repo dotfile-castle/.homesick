@@ -1,3 +1,6 @@
 
 [repos/bash]
-checkout = git clone 'git@github.com:dotfile-castle/bash.git' 'bash'
+checkout = git clone 'https://github.com/dotfile-castle/bash.git' 'bash'
+
+[repos/homeshick]
+checkout = git clone 'https://github.com/andsens/homeshick.git' 'homeshick'
