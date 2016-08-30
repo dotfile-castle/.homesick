@@ -10,4 +10,4 @@ init:
 	echo "[$(HOME)/.homesick]" >> ~/.mrconfig;\
 	echo "checkout = git clone 'git@github.com:dotfile-castle/.homesick.git' '.homesick'" >> ~/.mrconfig;\
 	echo 'chain = true' >> ~/.mrconfig)
-	@$(HOME)/bin/mr bootstrap src .mrconfig
+	@$(HOME)/bin/mr bootstrap .mrconfig
