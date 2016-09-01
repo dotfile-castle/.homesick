@@ -1,5 +1,4 @@
 [DEFAULT]
-checkout = git clone --depth 1 $@
 
 [repos/homeshick]
 checkout = git clone --depth 1 ''https://github.com/andsens/homeshick.git' 'homeshick'
