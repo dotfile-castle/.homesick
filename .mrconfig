@@ -1,16 +1,14 @@
-[DEFAULT]
-
 [repos/homeshick]
-checkout = git clone --depth 1 ''https://github.com/andsens/homeshick.git' 'homeshick'
+checkout = git clone --depth 1 'https://github.com/andsens/homeshick.git' 'homeshick'
 
 [repos/bash]
-checkout = git clone --depth 1 ''https://github.com/dotfile-castle/bash.git' 'bash'
+checkout = git clone --depth 1 'https://github.com/dotfile-castle/bash.git' 'bash'
 
 [repos/vim]
-checkout = git clone --depth 1 ''https://github.com/dotfile-castle/vim.git' 'vim'
+checkout = git clone --depth 1 'https://github.com/dotfile-castle/vim.git' 'vim'
 
 [repos/git]
-checkout = git clone --depth 1 ''https://github.com/dotfile-castle/git.git' 'git'
+checkout = git clone --depth 1 'https://github.com/dotfile-castle/git.git' 'git'
 
 [repos/tmux]
 checkout = git clone --depth 1 'https://github.com/dotfile-castle/tmux.git' 'tmux'
