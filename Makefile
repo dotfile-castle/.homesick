@@ -10,4 +10,9 @@ init:
 	echo "[$(HOME)/.homesick]" >> ~/.mrconfig;\
 	echo "checkout = git clone 'git@github.com:dotfile-castle/.homesick.git' '.homesick'" >> ~/.mrconfig;\
 	echo 'chain = true' >> ~/.mrconfig)
-	@$(HOME)/bin/mr bootstrap .mrconfig
+	@echo '~/.homesick/.mrconfig' >> ~/.mrtrust
+	@$(HOME)/bin/mr checkout
+	@mkdir -p ~/.fonts && cd ~/.fonts;\
+	curl -LO https://github.com/powerline/powerline/raw/develop/font/PowerlineSymbols.otf;\
+	curl -LO https://github.com/powerline/powerline/raw/develop/font/10-powerline-symbols.conf;\
+	fc-cache -vf ~/.fonts/
