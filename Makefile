@@ -16,3 +16,4 @@ init:
 	curl -LO https://github.com/powerline/powerline/raw/develop/font/PowerlineSymbols.otf;\
 	curl -LO https://github.com/powerline/powerline/raw/develop/font/10-powerline-symbols.conf;\
 	fc-cache -vf ~/.fonts/
+	@vim +PlugInstall +qall
