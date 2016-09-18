@@ -1,3 +1,6 @@
+[DEFAULT]
+git_update = git pull --recurse-submodules
+
 [repos/homeshick]
 checkout = git clone --depth 1 'https://github.com/andsens/homeshick.git' 'homeshick'
 
