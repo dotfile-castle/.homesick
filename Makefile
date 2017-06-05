@@ -18,7 +18,7 @@ init:
 	@mkdir -p ~/.fonts && cd ~/.fonts;\
 	curl -LO https://github.com/powerline/powerline/raw/develop/font/PowerlineSymbols.otf;\
 	curl -LO https://github.com/powerline/powerline/raw/develop/font/10-powerline-symbols.conf;\
-	fc-cache -vf ~/.fonts/
+	which fc-cache &> /dev/null && fc-cache -vf ~/.fonts/ || echo 'fc-cache not found'
 	@mkdir -p ~/.vim/autoload/
 	@ln -s ~/.homesick/repos/vim/home/.vim/autoload/plug.vim ~/.vim/autoload/plug.vim
 	@vim +PlugInstall +qall
